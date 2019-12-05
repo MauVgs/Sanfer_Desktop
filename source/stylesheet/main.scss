@@ -1,0 +1,23 @@
+@import 'variables';
+
+
+
+//plugins
+
+
+//components
+@import 'commons/header';
+
+//commons
+
+
+//sections
+@import 'sections/home';
+
+//responsive
+@import 'responsive';
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}

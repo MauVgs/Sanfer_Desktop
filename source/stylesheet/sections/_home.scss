@@ -1,0 +1,100 @@
+.bg_banner_home{
+    background-image: url("/assets/images/home/home_1.jpg");
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 80vh;
+    @media ($mobile) {
+        background-size: 300% auto;
+    }
+}
+.home__header{
+    min-height: 70vh;
+    padding: 75px 0px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-principal;
+    .home_title{
+        font-size: 60px;
+        text-align: center;
+        color: #fff;
+    }
+    .home_parr{
+        font-size: 22px;
+        text-align: center;
+        a{
+            color: #fff;
+        }
+    }
+}
+
+.home_animales{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .rectangulo_rojo{
+        width: 100%; 
+        max-height: 55px; 
+        border-top: 20px solid #E2403C;
+    }
+    .rectangulo_blanco{
+        width: 100%; 
+        max-height: 55px; 
+        border-left: 2000px solid #fff;
+        border-top: 50px solid #E2403C;
+        position: inherit;
+        bottom: 10px;
+    }
+}
+
+.animales{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .animal{
+        max-width: 20%;
+        height: 200px;
+        margin: 0px 2%;
+        .img-animal{
+            border: 10px solid rgb(225, 184, 184);
+            border-radius: 150px;
+            width: 100%;
+            height: 200px;
+            box-shadow: 0 2px 7px 0 rgba(0,0,0,0.26);
+            z-index: 1;
+            img{
+                margin-left: 10px;
+                max-width: 200px;
+                height: 180px;
+                min-height: 200px;
+                border-radius: 150px;
+                z-index: -2;
+            }
+        }
+        .select-animal{
+            position: relative;
+            box-sizing: border-box;
+            left: 70%;
+            bottom: 35px;
+            
+            a{
+                text-decoration: none;
+                i{
+                    border-radius: 50%;
+                    padding: 6px;
+                    background: #E2403C;
+                    color: #fff;
+                    box-shadow: 0 2px 7px 0 rgba(0,0,0,0.26);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@media ($mobile){
+    header{
+        display: none;
+    }
+
+    section{
+        padding: 10px 0px;
+    }
+
+    #main {
+        padding-top: 60px;
+    }
+
+    .bx-wrapper img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .container-fluid > .row > .col-md-6:first-child {
+		padding: 0px;
+	}
+}

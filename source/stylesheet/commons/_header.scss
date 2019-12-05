@@ -1,0 +1,66 @@
+header{
+    height: $headerHeight;
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $font-principal;
+    .navbar{
+        display: flex;
+        ul {
+            display: flex;
+            align-items: center;
+            margin-left: 30px;
+            li {
+                padding: 10px;
+                font-size: 15px;
+                font-weight: 600;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+        }
+        #logo{
+            margin-left: 30px;
+        }
+    }
+
+    .menu-botones{
+        padding: 0.5rem 1rem;
+        display: flex;
+        align-items: center;
+
+        .idioma a{
+            text-decoration: none;
+            color: #000;
+            padding: 0px 15px;
+            display: inline-flex;
+            i{
+                margin: 0px 5px;
+            }
+        }
+        
+        .consulta {
+            
+            a{
+                text-decoration: none;
+                color: #E2403C;
+                padding: 8px 15px;
+                border: 1.3px solid #E2403C;
+                border-radius: 7.8px;
+                &:hover{
+                    color: #fff;
+                    background: #E2403C;
+                }
+            }
+        }
+
+    }
+}
