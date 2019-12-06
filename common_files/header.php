@@ -28,7 +28,7 @@
         <div class="idioma">
             <a href="#"><i class="material-icons">public</i>ESP<i class="material-icons">expand_more</i></a>
         </div>
-        <div class="consulta">
+        <div class="btn-home">
             <a href="">Consulta de resultados</a>
         </div>
     </nav>

@@ -43,7 +43,7 @@
                             <a href=""><i class="material-icons">arrow_forward</i></a>
                         </div>
                         <div class="desc-animal">
-                            <p>Aves</p>
+                            <p>Porcinos</p>
                         </div>
                 </article>
                 <article class="animal">
@@ -54,7 +54,7 @@
                             <a href=""><i class="material-icons">arrow_forward</i></a>
                         </div>
                         <div class="desc-animal">
-                            <p>Aves</p>
+                            <p>Ganadería</p>
                         </div>
                 </article>
                 <article class="animal">
@@ -65,9 +65,42 @@
                             <a href=""><i class="material-icons">arrow_forward</i></a>
                         </div>
                         <div class="desc-animal">
-                            <p>Aves</p>
+                            <p>Animales de <br>compañía</p>
                         </div>
                 </article>
+            </div>
+        </section>
+        <section class="servicios">
+            <div class="servicio_1">
+                <div class="linea_roja">
+
+                </div>
+                <div class="img-servicio">
+                    <img src="/assets/images/home/lab_2.jpg" alt="">
+                </div>
+                <div class="desc-servicio">
+                    <h5>Bioseguridad</h5>
+                    <p>Lorem ipsum tincidunt ut vestibulum egestas, a id vulputate neque, vel metus eleifend accumsan purus, vitae. Sit Etiam viverra at elit. Ornare Sed tempor mattis Donec nibh pharetra urna mauris. Ac urna viverra eu Nam Suspendisse.</p>
+                    <div class="btn-home center">
+                        <a href="">Consulta de resultados</a>
+                    </div>  
+                </div>
+            </div>
+            <div class="servicio_2">
+                <div class="linea_roja">
+                    
+                </div>
+                <div class="img-servicio">
+                    <img src="/assets/images/home/lab_1.jpg" alt="">
+                </div>
+                <div class="desc-servicio">
+                <h5>Servicios de diagnóstico</h5>
+                    <p>Lorem ipsum tincidunt ut vestibulum egestas, a id vulputate neque, vel metus eleifend accumsan purus, vitae. Sit Etiam viverra at elit. Ornare Sed tempor mattis Donec nibh pharetra urna mauris. Ac urna viverra eu Nam Suspendisse.</p>
+                    <div class="btn-home center">
+                        <a href="">Consulta de resultados</a>
+                    </div>
+                </div>
+                
             </div>
         </section>
     </main>
