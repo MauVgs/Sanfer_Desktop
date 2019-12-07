@@ -70,7 +70,7 @@
                 </article>
             </div>
         </section>
-        <section class="servicios">
+        <section class="servicios container-fluid">
             <div class="servicio_1">
                 <div class="linea_roja">
 
@@ -82,7 +82,7 @@
                     <h5>Bioseguridad</h5>
                     <p>Lorem ipsum tincidunt ut vestibulum egestas, a id vulputate neque, vel metus eleifend accumsan purus, vitae. Sit Etiam viverra at elit. Ornare Sed tempor mattis Donec nibh pharetra urna mauris. Ac urna viverra eu Nam Suspendisse.</p>
                     <div class="btn-home center">
-                        <a href="">Consulta de resultados</a>
+                        <a href="">Ver productos</a>
                     </div>  
                 </div>
             </div>
@@ -97,10 +97,38 @@
                 <h5>Servicios de diagnóstico</h5>
                     <p>Lorem ipsum tincidunt ut vestibulum egestas, a id vulputate neque, vel metus eleifend accumsan purus, vitae. Sit Etiam viverra at elit. Ornare Sed tempor mattis Donec nibh pharetra urna mauris. Ac urna viverra eu Nam Suspendisse.</p>
                     <div class="btn-home center">
-                        <a href="">Consulta de resultados</a>
+                        <a href="">Ver laboratorios</a>
                     </div>
                 </div>
                 
+            </div>
+        </section>
+        <br>
+        <br>
+        <section class="aditivos">
+            <div class="aditivos-info">
+                <div class="info">
+                    <div class="desc-servicio">
+                        <h5>Aditivos Nutricionales</h5>
+                        <p>Lorem ipsum tincidunt ut vestibulum egestas, a id vulputate neque, vel metus eleifend accumsan purus, vitae. Sit Etiam viverra at elit. Ornare Sed tempor mattis Donec nibh pharetra urna mauris. Ac urna viverra eu Nam Suspendisse.</p>
+                    </div>
+                    <div class="botones-aditivo">
+                        <div class="btn-home center">
+                            <a href="">Ver laboratorios</a>
+                        </div>
+                        <div class="btn-home-rojo center">
+                            <a href="">Ver laboratorios</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="aditivos-img">
+                <div class="linea_roja">
+
+                </div>
+                <div class="img_aditivo">
+                    <img src="assets/images/home/aditivo.jpg" alt="">
+                </div>
             </div>
         </section>
     </main>

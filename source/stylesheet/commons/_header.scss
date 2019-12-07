@@ -62,3 +62,20 @@ header{
         }
     }
 }
+
+.btn-home-rojo {
+    padding: 0px 20px;
+    a{
+        text-decoration: none;
+        background: #E2403C;
+        color: #fff;
+        padding: 8px 15px;
+        
+        border-radius: 7.8px;
+        &:hover{
+            color: #E2403C;
+            background: #fff;
+            border: 1.3px solid #E2403C;
+        }
+    }
+}

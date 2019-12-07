@@ -3,7 +3,7 @@
     <nav class="navbar">
         <div id="logo">
             <a href="#">
-                <img width="112px" src="/assets/images/logo.png" alt="Sanfer">
+                <img width="108px" src="/assets/images/logo.png" alt="Sanfer">
             </a>
         </div>
         <ul>
