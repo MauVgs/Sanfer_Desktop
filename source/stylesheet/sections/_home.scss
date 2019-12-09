@@ -239,9 +239,6 @@
             padding: 50px 0px;
         }
     }
-    
-    
-    
     .aditivos-img{
         width: 50%;
         position: relative;
@@ -251,12 +248,14 @@
             border-radius: 50%;
             z-index: 1;
         }
-        .linea_roja{
+        .linea_roja-aditivos{
             position: absolute;
             width: 533px;
-            height: 500px;
+            height: 600px;
             border: 1px solid #E2403C;
             z-index: -1;
+            margin-top: 80px;
+            margin-left: -50px;
         }
     }
 }
@@ -264,4 +263,140 @@
 
 .center{
     text-align: center;
+}
+.exportaciones{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .botones-exportaciones{
+        display: flex;
+        justify-content: space-around;
+    }
+    .exportaciones-info{
+        position: relative;
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .info{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 400px;
+            height: auto;   
+            padding: 50px 0px;
+        }
+    }
+    .exportaciones-img{
+        width: 50%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-left: 10%;
+        img{
+            max-width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .linea_roja-exportaciones{
+            position: absolute;
+            width: 533px;
+            height: 600px;
+            border: 1px solid #E2403C;
+            z-index: -1;
+            margin-top: -20%;
+            margin-left: 10%;
+        }
+    }
+}
+
+.linea_de_produc{
+    background-image: url("/assets/images/home/vaca_2.jpg");
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .info-linea-produc{
+        width: 532px;
+        height: 379px;
+        background: #fff;
+        box-shadow: 13px 17px 27px 0 rgba(0,0,0,0.43);
+        margin-left: 10%;
+        border-radius: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .desc-linea{
+            text-align: center;
+            h5{
+                font-size: 26px;
+                font-family: $font-principal;
+            }
+            p{
+                max-width: 450px;
+                padding: 20px;
+            }
+        }
+        .botones-exportaciones{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    
+}
+.noticias{
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    h2{
+        font-size: 60px;
+    }
+    a{
+        color: #FA5D6C;
+        font-size: 18px;
+        text-decoration: underline;
+    }
+    .carousel-noticias{
+        width: 90%;
+        img{
+            max-width: 300px;
+            height: auto;
+        }
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+          }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+          }
+    }
+    
 }

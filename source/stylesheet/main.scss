@@ -3,13 +3,14 @@
 
 
 //plugins
-
+@import 'plugins/bx_slider.scss';
+@import 'plugins/owl_carousel.scss';
 
 //components
-@import 'commons/header';
 
 //commons
-
+@import 'commons/header';
+@import 'commons/footer.scss';
 
 //sections
 @import 'sections/home';
