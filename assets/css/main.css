@@ -144,6 +144,11 @@ header .menu-botones {
 header .menu-botones .idioma {
   display: flex;
 }
+header .menu-botones .idioma button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 header .menu-botones .idioma p {
   margin: 0;
 }
@@ -160,6 +165,9 @@ header .menu-botones .idioma i {
   margin: 0px 5px;
 }
 
+.btn-home {
+  margin-left: 10px;
+}
 .btn-home a {
   text-decoration: none;
   color: #E2403C;
@@ -232,7 +240,7 @@ footer .enlaces-footer .noticias-footer .info-footer {
 }
 footer .enlaces-footer .noticias-footer .info-footer .img-footer {
   width: 100%;
-  height: 130px;
+  height: 150px;
 }
 footer .enlaces-footer .noticias-footer .info-footer .img-footer img {
   width: 100%;
@@ -592,6 +600,7 @@ footer .extra-footer ul li {
 }
 
 .exportaciones {
+  padding-bottom: 50px;
   background: #F9F9F9;
   display: flex;
   justify-content: space-around;

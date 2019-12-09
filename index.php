@@ -349,5 +349,6 @@
             },
         });
   </script>
+  <?php include "common_files/scripts.php";?>
 </body>
 </html>
