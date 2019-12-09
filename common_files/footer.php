@@ -54,19 +54,21 @@
         </div>  
 
         <div class="contacto-footer">
-            <label for="">CONTACTO</label>
-            <span>Lorem ipsum tincidunt metus eget efficitur elis Morbi Donec sollicitudin ex, sed pharetra vitae efficitur.</span>
-            <a href="">Ver mapa</a>
-            <span>55236662351</span>
-            <span>contaccto@sanfersaludanimal.mx</span>
-            <a href="">Solicitar información</a>
-            <div class="redes-sociales">
-                <img src="/assets/images/general/facebook.svg" alt="">
-                <img src="/assets/images/general/twitter.svg" alt="">
-                <img src="/assets/images/general/linkedn.svg" alt="">
-            </div>
-            <div class="logo-footer">
-                <img src="/assets/images/logo_2.png" alt="">
+            <div class="contact-footer">
+                <label for="">CONTACTO</label>
+                <span>Lorem ipsum tincidunt metus eget efficitur elis Morbi Donec sollicitudin ex, sed pharetra vitae efficitur.</span>
+                <a href="">Ver mapa</a>
+                <span>55236662351</span>
+                <span>contaccto@sanfersaludanimal.mx</span>
+                <a href="">Solicitar información</a>
+                <div class="redes-sociales">
+                    <img src="/assets/images/general/facebook.svg" alt="">
+                    <img src="/assets/images/general/twitter.svg" alt="">
+                    <img src="/assets/images/general/linkedn.svg" alt="">
+                </div>
+                <div class="logo-footer">
+                    <img src="/assets/images/logo_2.png" alt="">
+                </div>
             </div>
         </div>
     </div>

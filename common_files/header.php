@@ -26,7 +26,7 @@
     </nav>
     <nav class="menu-botones">
         <div class="idioma">
-            <a href="#"><i class="material-icons">public</i>ESP<i class="material-icons">expand_more</i></a>
+            <i class="material-icons">public</i>ESP<a href="#"><i class="material-icons">expand_more</i></a>
         </div>
         <div class="btn-home">
             <a href="">Consulta de resultados</a>
